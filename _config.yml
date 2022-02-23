@@ -4,3 +4,6 @@ title: Abstractolotl
 
 plugins:
   - jekyll-include-cache
+
+collections:
+  - projects
