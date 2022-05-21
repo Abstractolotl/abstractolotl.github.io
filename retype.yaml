@@ -1,0 +1,10 @@
+input: .
+output: .retype
+url: https://abstractolotl.github.io
+branding:
+  title: Abstractolotl
+  label: Docs
+footer:
+  copyright: "&copy; Copyright {{ year }} by Abstractolotl All rights reserved."
+gravatar:
+  enabled: true
