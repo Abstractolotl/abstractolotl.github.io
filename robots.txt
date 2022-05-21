@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abstractolotl.github.io/sitemap.xml.gz
