@@ -41,7 +41,7 @@ There will be no official release in the PlayStore or the like.
 You can install AzTube Downloader App with the following steps.
 
 1. Download the latest Version of the App to your phone
-   [!file Latest AAB](https://github.com/Abstractolotl/aztube-app/releases/download/1.2.0/aztube.aab)
+   [!file Latest APK](https://github.com/Abstractolotl/aztube-app/releases/download/1.2.0/aztube.apk)
 2. Install the App to your device
     - You may need to enable the install for insecure sources
 
