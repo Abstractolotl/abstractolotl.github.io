@@ -21,8 +21,8 @@ You can install the Extension via the Firefox Addon Store.
 You can install AzTube Extension with the following steps.
 
 1. Download the latest Version of the Extension
-   [!file Latest ZIP](https://jenkins.lucaspape.de/job/aztube-extension/lastSuccessfulBuild/artifact/aztube-extension.zip)
-   [!file Latest Crx](https://jenkins.lucaspape.de/job/aztube-extension/lastSuccessfulBuild/artifact/aztube-extension.crx)
+   [!file Latest ZIP](https://github.com/Abstractolotl/aztube-extension/releases/download/1.1/aztube-extension.zip)
+   [!file Latest Crx](https://github.com/Abstractolotl/aztube-extension/releases/download/1.1/aztube-extension.crx)
 2. Open your Browser Extension View and enable the Development mode
 3. Drag the downloaded file to the opened area
 
@@ -41,7 +41,7 @@ There will be no official release in the PlayStore or the like.
 You can install AzTube Downloader App with the following steps.
 
 1. Download the latest Version of the App to your phone
-   [!file Latest APK](https://jenkins.lucaspape.de/job/aztube-app/lastSuccessfulBuild/artifact/build/app/outputs/flutter-apk/app-release.apk)
+   [!file Latest AAB](https://github.com/Abstractolotl/aztube-app/releases/download/1.2.0/aztube.aab)
 2. Install the App to your device
     - You may need to enable the install for insecure sources
 
