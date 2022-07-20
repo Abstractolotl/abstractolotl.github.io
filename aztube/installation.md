@@ -11,18 +11,22 @@ avatar: ../ressources/avatar-ancocodet.png
 
 ## Extension Installation
 !!!info
-There is currently only one official release available for firefox.
+There is currently no official release for chrome. 
+The 1.2 Version is not compatible with firefox until manifest V3 is supported.
 !!!
 
 +++ Firefox
 You can install the Extension via the Firefox Addon Store.
 [!ref Addonpage](https://addons.mozilla.org/firefox/addon/aztube-downloader/)
++++ Opera
+You can install the Extension via the Opera Addon Store.
+[!ref Addonpage](https://addons.opera.com/extensions/details/aztube-downloader-2/)
 +++ Others
 You can install AzTube Extension with the following steps.
 
 1. Download the latest Version of the Extension
-   [!file Latest ZIP](https://github.com/Abstractolotl/aztube-extension/releases/download/1.1/aztube-extension.zip)
-   [!file Latest Crx](https://github.com/Abstractolotl/aztube-extension/releases/download/1.1/aztube-extension.crx)
+   [!file Latest ZIP](https://github.com/Abstractolotl/aztube-extension/releases/download/1.2/aztube-extension.zip)
+   [!file Latest Crx](https://github.com/Abstractolotl/aztube-extension/releases/download/1.2/aztube-extension.crx)
 2. Open your Browser Extension View and enable the Development mode
 3. Drag the downloaded file to the opened area
 
@@ -33,8 +37,12 @@ The extension should now be installed and can be deactivated again via the same 
 
 +++ Android
 !!!info
-There will be no official release in the PlayStore or the like.
+There will be no official release in the Google PlayStore
 !!!
+
+**Official Releases**
+
+[!ref Huawai AppGallery](https://appgallery.huawei.com/app/C105420941)
 
 **Inofficial Releases**
 
