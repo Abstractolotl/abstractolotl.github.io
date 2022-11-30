@@ -6,23 +6,21 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Introduction</title>
-    <meta name="title" content="Introduction">
-    <meta name="description" content="AzTube Downloader is a project that consists of a browser extension and an app that communicate with each other." />
+    <title>Changelog</title>
+    <meta name="title" content="Changelog">
+    <meta name="description" content="Here you can find information about the latest changes to AzPlace." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://abstractolotl.github.io/aztube/introduction/">
-    <meta property="og:title" content="Introduction">
-    <meta property="og:description" content="AzTube Downloader is a project that consists of a browser extension and an app that communicate with each other.">
-    <meta property="og:image" content="https://abstractolotl.github.io/ressources/add-device-region.png">
+    <meta property="og:url" content="https://abstractolotl.github.io/azplace/changelog/">
+    <meta property="og:title" content="Changelog">
+    <meta property="og:description" content="Here you can find information about the latest changes to AzPlace.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://abstractolotl.github.io/aztube/introduction/">
-    <meta property="twitter:title" content="Introduction">
-    <meta property="twitter:description" content="AzTube Downloader is a project that consists of a browser extension and an app that communicate with each other.">
-    <meta property="twitter:image" content="https://abstractolotl.github.io/ressources/add-device-region.png">
+    <meta property="twitter:url" content="https://abstractolotl.github.io/azplace/changelog/">
+    <meta property="twitter:title" content="Changelog">
+    <meta property="twitter:description" content="Here you can find information about the latest changes to AzPlace.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -165,162 +163,43 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="what-is-aztube-downloader" class="break-words">
+<doc-anchor-target id="changelog" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-aztube-downloader">#</doc-anchor-trigger>
-        <span>What is AzTube Downloader?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changelog">#</doc-anchor-trigger>
+        <span>Changelog</span>
     </h1>
 </doc-anchor-target>
 <div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350">
-    <div class="flex items-center flex-shrink-0">Published&nbsp;<span>2022-02-03</span></div>
+    <div class="flex items-center flex-shrink-0">Published&nbsp;<span>2022-11-30</span></div>
 </div>
 
-<p>AzTube Downloader is a project that consists of a browser extension and an app that communicate with each other.</p>
-<p>Über die Extension können YouTube Videos an das Handy übermittelt werden und auf diesem dann heruntergeladen werden. Die Qualität bzw. Art des Inhalts wird über die Extension festgelegt und ebenfalls an das Handy übermittelt.</p>
-<doc-anchor-target id="how-to-use-aztube-downloader">
+<p>Here you can find information about the latest changes to AzPlace.</p>
+<doc-tabs>
+<doc-tab id="frontend">
+<template #title>Frontend</template>
+<doc-anchor-target id="v-100---first-stable-release">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-use-aztube-downloader">#</doc-anchor-trigger>
-        <span>How to use AzTube Downloader</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#v-100---first-stable-release">#</doc-anchor-trigger>
+        <span>v 1.0.0 - First stable Release</span>
     </h2>
 </doc-anchor-target>
-<p>To use AzTube Downloader the following requirements must be met:</p>
 <ul>
-<li>The extension is installed in your browser <a href="../installation/#extension-installation">(more)</a></li>
-<li>The app is installed on your phone <a href="../installation/#app-installation">(more)</a></li>
+<li>Fix overflow on sidebar</li>
 </ul>
-<p>If these requirements are met, a connection between the devices can be established.</p>
-<doc-anchor-target id="how-to-link-your-devices">
+</doc-tab>
+<doc-tab id="backend">
+<template #title>Backend</template>
+<doc-anchor-target id="v-110---bugfixes">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-link-your-devices">#</doc-anchor-trigger>
-        <span>How to link your Devices</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#v-110---bugfixes">#</doc-anchor-trigger>
+        <span>v 1.1.0 - Bugfixes</span>
     </h2>
 </doc-anchor-target>
-<p>You can link your devices with the following steps:</p>
-<ol>
-<li>Click on the AzTube icon in your browser
 <ul>
-<li>Now a popup should have appeared</li>
-<li>For easier use it is recommended to pin the extension</li>
+<li>Fix issue with pixel placement</li>
 </ul>
-</li>
-<li>Now click on the &quot;Add Device&quot; image in the popup that appears
-<ul>
-<li>Now instead of the &quot;Add Device&quot; image a QR code should have appeared
-<doc-panel id="screenshots" collapsed>
-    <template #title>Screenshots</template>
-<img src="../../ressources/add-device-region.png" alt="Add Device Region" />
-<img src="../../ressources/generated-code.png" alt="Generated Code" />
-</doc-panel>
-</li>
-</ul>
-</li>
-<li>Now open the AzTube Downloader app on your phone and click on &quot;Link Device&quot;
-<ul>
-<li><strong>Authorization to use the camera is required for the linking process</strong></li>
-<li>You should now see a QR code reader</li>
-</ul>
-</li>
-<li>Scan the QR code that appeared in the extension in 2.
-<ul>
-<li>Now you should be on a blank dashboard page</li>
-</ul>
-</li>
-</ol>
-<doc-anchor-target id="how-to-send-videos-to-my-phone">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-send-videos-to-my-phone">#</doc-anchor-trigger>
-        <span>How to send videos to my phone</span>
-    </h2>
-</doc-anchor-target>
-<ol>
-<li>Go to <a href="https://youtube.com">YouTube</a> and start a video of your choice
-<ul>
-<li>There should be a download icon at the height of the subscription button</li>
-</ul>
-</li>
-<li>Click on the download icon added by the extension (not the one from YouTube)
-<ul>
-<li>Now a popup should have opened</li>
-</ul>
-</li>
-<li>Select the desired download type and quality in the popup window
-<ul>
-<li>You can also change the title and author/performer</li>
-</ul>
-</li>
-<li>Now click on Send and the video data will be sent to your cell phone
-<ul>
-<li>The download should appear on your phone within a few seconds</li>
-</ul>
-</li>
-</ol>
-<doc-anchor-target id="how-to-download-videosaudios">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-download-videosaudios">#</doc-anchor-trigger>
-        <span>How to download videos/audios</span>
-    </h2>
-</doc-anchor-target>
-<p>When downloads are listed in your dashboard you have the following options to download:</p>
-<ol>
-<li>If background downloading is enabled, the download will start automatically even if the app is not open.</li>
-<li>Click on the download icon next to the video and the download will start</li>
-</ol>
-<doc-anchor-target id="privacy-and-terms">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#privacy-and-terms">#</doc-anchor-trigger>
-        <span>Privacy and Terms</span>
-    </h2>
-</doc-anchor-target>
-<p>
-<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
-    <div class="flex items-center text-blue-500 dark:text-blue-400">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
-        </span>
-        <span class="inline-block font-medium ml-2">Privacy Policy</span>
-    </div>
-    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
-        <span>https://www.app-privacy-policy.com/live.php?token=P9NeOQEHYtWddG2NKYCpn61Lp2CSOGVj</span>
-    </div>
-    <a href="https://www.app-privacy-policy.com/live.php?token=P9NeOQEHYtWddG2NKYCpn61Lp2CSOGVj" class="absolute block inset-0"></a>
-</div>
-<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
-    <div class="flex items-center text-blue-500 dark:text-blue-400">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
-        </span>
-        <span class="inline-block font-medium ml-2">Terms and Conditions</span>
-    </div>
-    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
-        <span>https://www.app-privacy-policy.com/live.php?token=hYXz1idDYexlrASbTrUfbMl8XRrDjrTh</span>
-    </div>
-    <a href="https://www.app-privacy-policy.com/live.php?token=hYXz1idDYexlrASbTrUfbMl8XRrDjrTh" class="absolute block inset-0"></a>
-</div>
-<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
-    <div class="flex items-center text-blue-500 dark:text-blue-400">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
-        </span>
-        <span class="inline-block font-medium ml-2">EULA</span>
-    </div>
-    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
-        <span>https://www.app-privacy-policy.com/live.php?token=ctGZzNqNeyBfWm7IuE2VQqTLG3mEWCYd</span>
-    </div>
-    <a href="https://www.app-privacy-policy.com/live.php?token=ctGZzNqNeyBfWm7IuE2VQqTLG3mEWCYd" class="absolute block inset-0"></a>
-</div>
-<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
-    <div class="flex items-center text-blue-500 dark:text-blue-400">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
-        </span>
-        <span class="inline-block font-medium ml-2">Disclaimer</span>
-    </div>
-    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
-        <span>https://www.app-privacy-policy.com/live.php?token=qIHA3H1ZmShfrN3i4xcNnt0LZ3GkjI73</span>
-    </div>
-    <a href="https://www.app-privacy-policy.com/live.php?token=qIHA3H1ZmShfrN3i4xcNnt0LZ3GkjI73" class="absolute block inset-0"></a>
-</div>
-</p>
+</doc-tab>
+</doc-tabs>
 
 
 <div class="flex items-center mt-6 mb-6">
@@ -328,8 +207,8 @@
         <a href="/tags/">
             <svg class="inline-block -mb-px mr-1.5 text-blue-500 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" overflow="visible" fill="currentColor"><g><path d="M21.3 9.88l-8.59-8.59C12.52 1.11 12.27 1 12 1H2c-.55 0-1 .45-1 1v10c0 .27.11.52.29.71l8.59 8.58c.57.57 1.32.88 2.12.88s1.55-.31 2.12-.88l7.17-7.17a3.009 3.009 0 00.01-4.24zm-1.42 2.82l-7.17 7.17c-.39.39-1.02.39-1.42 0L3 11.59V3h8.59l8.29 8.29c.39.39.39 1.03 0 1.41z" /><path d="M7.01 6C6.45 6 6 6.45 6 7s.45 1 1 1 1-.45 1-1-.44-1-.99-1z" /></g></svg>
         </a>
-        <span class="mr-2"><a href="/tags/guide/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
-    <span>guide</span>
+        <span class="mr-2"><a href="/tags/changes/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>changes</span>
 </a></span>
     </span>
 </div>
@@ -342,23 +221,16 @@
             
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/aztube/changelog/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">Welcome</span>
+                <span class="block mt-1">Changelog</span>
             </span>
         </a>
     </div>
 
     <div class="w-1/2">
-        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/aztube/installation/">
-            <span>
-                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                <span class="block mt-1">Installation</span>
-            </span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-        </a>
     </div>
 </nav>
 
@@ -403,6 +275,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Introduction", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Changelog", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
