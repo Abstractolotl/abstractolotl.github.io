@@ -20,3 +20,4 @@ Here you can find all information about contributing and/or setting up our proje
 ## Products and Projects
 
 [!ref text="AzTube Downloader"](aztube/introduction.md)
+[!ref text="AzPlace"](azplace/changelog.md)
