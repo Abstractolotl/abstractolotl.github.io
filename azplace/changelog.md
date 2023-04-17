@@ -23,4 +23,10 @@ Here you can find information about the latest changes to AzPlace.
 ## v 1.1.0 - Bugfixes
 
 - Fix issue with pixel placement
+
+## v 1.2.0 - Authentication changes
+
+- Switch to public domain
+- Switch to OpenID-Connect 
+
 +++
